@@ -108,10 +108,8 @@
 // const array2 = [3, 4, 5, 6, 7];
 
 // const getUniqueValues = (array1: Value[], array2: Value[]): number[] => {
-//   const uniqueArr:number[] = [];
-//   const obj:ObjType = {
-  
-//   };
+//   const uniqueArr: number[] = [];
+//   const obj: ObjType = {};
 
 //   const formatData = (num: number | string) => {
 //     if (typeof num === "string") {
@@ -121,25 +119,23 @@
 //   };
 
 //   for (let i = 0; i < array1.length; i++) {
-//     const curr:number = formatData(array1[i]);
+//     const curr: number = formatData(array1[i]);
 
-//     if(!obj[curr])
-//     {
-//       uniqueArr.push(curr)
+//     if (!obj[curr]) {
+//       uniqueArr.push(curr);
 //     }
 //     obj[curr] = 1;
 //   }
 
-//    for (let i = 0; i < array2.length; i++) {
-//     const curr:number = formatData(array2[i]);
+//   for (let i = 0; i < array2.length; i++) {
+//     const curr: number = formatData(array2[i]);
 
-//     if(!obj[curr])
-//     {
-//       uniqueArr.push(curr)
+//     if (!obj[curr]) {
+//       uniqueArr.push(curr);
 //     }
 //     obj[curr] = 1;
 //   }
-//     return uniqueArr;
+//   return uniqueArr;
 // };
 
 
