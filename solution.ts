@@ -1,5 +1,3 @@
-
-
 // const formatValue = (
 //   value: string | number | boolean
 // ): string | number | boolean => {
@@ -43,6 +41,7 @@
 // }
 
 
+
 // type Item = {
 //   title: string; 
 //   rating: number;
@@ -58,6 +57,7 @@
 //   const filter = books.filter(book => book.rating >= 4);
 //   return filter;
 // }
+
 
 
 // type User = {
@@ -77,6 +77,7 @@
 //   const activeUser = users.filter(user => user.isActive === true);
 //   return activeUser;
 // }
+
 
  
 // interface Book {
@@ -140,6 +141,7 @@
 //   }
 //     return uniqueArr;
 // };
+
 
 
 // type Product = {
